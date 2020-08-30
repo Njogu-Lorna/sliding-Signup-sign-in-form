@@ -1,53 +1,46 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
-        <meta name="viewport" content="width=device width, initial scale=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta http-equiv="X-UA-C ompatible" content="ie=edge"/>
-        <!--font-->
-        <link rel="stylesheet" href="" integrity="" crossorigin=""/>
-
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css"/>
+        <script src="sign.js"></script>
         <title>Sign Up/Sign In </title>
     </head>
     <body>
         <div class="container" id="container">
             <div class="form-conatainer sign-up-container">
                 <form action="#">
-									<h1>Sign up via</h1>
-									<div class="social-container">
-										<a href="#" class="social"><i class="fab fa facebook-f"></i></a>
-    								<a href="#" class="social"><i class="fab fa googleplus-g"></i></a>
-    								<a href="#" class="social"><i class="fab fa linkedin-in"></i></a>
-										<a href="#" class="social"><i class="fab fa instagram-i"></i></a>
-									
-									<span>or create an account</span>
-									<input type="text" placeholder="Username"/>
-									
-									<input type="email" placeholder="Email"/>
-								
-									<input type="password" placeholder="Password"/>
-									
-									<input type="password" name="password2" placeholder="Repeat password"/>
-									
-									<button>Sign Up</button>  
-								</form>
-								</div>
+                    <h1>Sign up via</h1>
+                    <div class="social-buttons">
+                        <class ="social row item"><a href="www.instagram.com" class="fa fa-instagram" ></i></a>
+                        <class ="social row item"><a href="www.facebook.com" class="fa fa-facebook" ></i></a>
+                        <class ="social row item"><a href="" class="fa fa-linkedin" ></i></a>
+                        <class ="social row item"><a href="" class="fab fa googleplus" ></i></a>
+                    </div>
+                    <span>or create an account</span>
+					<input type="text" placeholder="Username"/>
+					<input type="email" placeholder="Email"/>
+					<input type="password" placeholder="Password"/>
+                    <input type="password" name="password2" placeholder="Repeat password"/>
+                    <button>Sign Up</button>
+                </form>
             </div>
             <div class="form-container sign-in-container">
                 <form action="#">
-									<h1>Sign In</h1>
-									<div class="social-container">
-											<a href="#" class="social"><i class="fab fa facebook-f"></i></a>
-											<a href="#" class="social"><i class="fab fa googleplus-g"></i></a>
-											<a href="#" class="social"><i class="fab fa linkedin-in"></i></a>
-											<a href="#" class="social"><i class="fab fa instagram-i"></i></a>
-									</div>
-									<span>or use email</span><hr>
-									<input type="email" placeholder="Email"/>
-									<input type="password" placeholder="Password"/>
-									<a href="#">Forgot Password</a>
-									<button>Sign In</button>
+                    <h1>Sign In Via</h1>
+                    <div class="social-buttons">
+                        <class ="social row item"><a href="" class="fa fa-instagram" ></i></a>
+                        <class ="social row item"><a href="" class="fa fa-facebook" ></i></a>
+                        <class ="social row item"><a href="" class="fa fa-linkedin" ></i></a>
+                        <class ="social row item"><a href="" class="fa fa-googleplus" ></i></a>
+                    </div>
+                    <span>or via Email</span>
+					<input type="email" placeholder="Email"/>
+					<input type="password" placeholder="Password"/>
+					<a href="#">Forgot Password</a>
+					<button>Sign In</button>
                 </form>
             </div>
             <div class="overlay-container">
@@ -61,6 +54,6 @@
                 </div>
             </div>
         </div>
-        <script src="sign.js>"></script>
+        <script src="sign.js"></script>
     </body>
 </html>
