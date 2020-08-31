@@ -3,8 +3,10 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta http-equiv="X-UA-C ompatible" content="ie=edge"/>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous">
+            <link rel="stylesheet" href="style.css"/>
         <script src="sign.js"></script>
         <title>Sign Up/Sign In </title>
     </head>
@@ -13,11 +15,10 @@
             <div class="form-conatainer sign-up-container">
                 <form action="#">
                     <h1>Sign up via</h1>
-                    <div class="social-buttons">
-                        <class ="social row item"><a href="www.instagram.com" class="fa fa-instagram" ></i></a>
-                        <class ="social row item"><a href="www.facebook.com" class="fa fa-facebook" ></i></a>
-                        <class ="social row item"><a href="" class="fa fa-linkedin" ></i></a>
-                        <class ="social row item"><a href="" class="fab fa googleplus" ></i></a>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <span>or create an account</span>
 					<input type="text" placeholder="Username"/>
@@ -30,11 +31,10 @@
             <div class="form-container sign-in-container">
                 <form action="#">
                     <h1>Sign In Via</h1>
-                    <div class="social-buttons">
-                        <class ="social row item"><a href="" class="fa fa-instagram" ></i></a>
-                        <class ="social row item"><a href="" class="fa fa-facebook" ></i></a>
-                        <class ="social row item"><a href="" class="fa fa-linkedin" ></i></a>
-                        <class ="social row item"><a href="" class="fa fa-googleplus" ></i></a>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <span>or via Email</span>
 					<input type="email" placeholder="Email"/>
@@ -46,14 +46,26 @@
             <div class="overlay-container">
                 <div class="overlay">
                     <div class="overlay-panel overlay-left">
+                        <h1>Welcome</h1>
+                        <p>Fill in your details to stay connected</p>
                         <button class="ghost" id="SignIn">Sign In</button>
                     </div>
                     <div class="overlay-panel overlay-right">
+                        <h1>Hello👋</h1>
+                            <h2>Are you new here?</h2>
+                        <p>Enter your details and become part of the community</p>
                         <button class="ghost" id="signUp">Sign Up</button>
                     </div>
                 </div>
             </div>
         </div>
-        <script src="sign.js"></script>
-    </body>
+        <div class="footer">
+            <b>	Follow me on </b>
+                <div class="icons">
+                    <a href="https://github.com/Njogu-Lorna" target="_blank" class="social"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/_.njogu._/" target="_blank" class="social"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/_El_Njogu" target="_blank" class="social"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.linkedin.com/in/lorna-njogu-14b5251b2/" target="_blank" class="social"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>    </body>
 </html>
