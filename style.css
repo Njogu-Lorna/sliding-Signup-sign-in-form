@@ -155,30 +155,30 @@ button.ghost{
 /*Animation*/
 
 /*Move signin to the right*/
-.container.left-panel-active .sign-in-container{
+.container .left-panel-active .sign-in-container{
     transform: translateX(100%);
 }
 /*move overlaya to left*/
-.container.right-panel-active.overlay-right{
+.container .right-panel-active .overlay-right{
     transform: translateX(-100%);
 }
 /*Bring sign up over sign in*/
-.container.right-panel-active.sign-up-container{
+.container .right-panel-active .sign-up-container{
     transform: translateX(100%);
     opacity:1;
     z-index:5;
 }
 
 /*move overlay back to right*/
-.container.right-panel-active.overlay{
+.container .right-panel-active .overlay{
     transform: translateX(50%);
 }
 /*Bring back the text to center*/
-.container.right-panel-active.overlay-left{
+.container .right-panel-active .overlay-left{
     transform: translateX(0);
 }
 /*Bring back text to right*/
-.container.right-panel-active.overlay-right{
+.container .right-panel-active .overlay-right{
     transform: translateX(20%);
 }
 .footer{
