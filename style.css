@@ -52,7 +52,7 @@ a{
     margin: -5px 0;
 }
 
-.social-buttons A{
+.social-buttons a{
     border: 1px solid cyan;
     border-radius: 50%;
 display: inline-block;
@@ -153,7 +153,14 @@ button.ghost{
     transform:translateX(-20%);
 }
 /*Animation*/
-
+.style{
+    transform: rotate(360deg);
+    transition: 3s;
+}
+.styloo{
+    transform: rotate(-360deg);
+    transition: 3s;
+}
 /*Move signin to the right*/
 .container .left-panel-active .sign-in-container{
     transform: translateX(100%);

@@ -1,17 +1,14 @@
 
-document.querySelector('#SignUp').addEventListener('click',
+document.getElementById('SignIn').addEventListener('click',
 	function(){
 		const container = document.getElementById("container");
-		container.classList.toggle('right-panel-active',document.click);
-		container.removeClass('right-panel-active',document.click);
+		container.classList.toggle('style');
+		container.removeClass('style');
 	});
-document.querySelector('#SignIn').addEventListener('click',
+
+document.getElementById('SignUp').addEventListener('click',
 	function(){
-		container.classList.toggle('right-panel-active',document.click);
-		container.removeClass('right-panel-active',document.click);
+		const container = document.getElementById("container");
+		container.classList.toggle('style');
+		container.removeClass('style');
 	});
-function myFunction(){
-	const container = document.getElementById("container");
-	container.classList.toggle('right-panel-active',document.click);
-	container.removeClass('right-panel-active',document.click);
-}
