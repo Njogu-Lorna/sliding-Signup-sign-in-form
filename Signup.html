@@ -7,7 +7,6 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
         crossorigin="anonymous">
             <link rel="stylesheet" href="style.css"/>
-        <script src="sign.js"></script>
         <title>Sign Up/Sign In </title>
     </head>
     <body>
@@ -25,7 +24,7 @@
 					<input type="email" placeholder="Email"/>
 					<input type="password" placeholder="Password"/>
                     <input type="password" name="password2" placeholder="Repeat password"/>
-                    <button>Sign Up</button>
+                    <button id="SignUp">Sign Up</button>
                 </form>
             </div>
             <div class="form-container sign-in-container">
@@ -40,7 +39,7 @@
 					<input type="email" placeholder="Email"/>
 					<input type="password" placeholder="Password"/>
 					<a href="#">Forgot Password</a>
-					<button>Sign In</button>
+					<button id="SignIn">Sign In</button>
                 </form>
             </div>
             <div class="overlay-container">
@@ -54,7 +53,7 @@
                         <h1>Hello👋</h1>
                             <h2>Are you new here?</h2>
                         <p>Enter your details and become part of the community</p>
-                        <button class="ghost" id="signUp">Sign Up</button>
+                        <button class="ghost" id="SignUp">Sign Up</button>
                     </div>
                 </div>
             </div>
@@ -67,5 +66,8 @@
                     <a href="https://twitter.com/_El_Njogu" target="_blank" class="social"><i class="fab fa-twitter-square"></i></a>
                     <a href="https://www.linkedin.com/in/lorna-njogu-14b5251b2/" target="_blank" class="social"><i class="fab fa-linkedin"></i></a>
                     </div>
-                </div>    </body>
+                </div>  
+
+            </body>
+             <script src="sign.js"></script>  
 </html>
